@@ -170,6 +170,7 @@
 '1.5.17 RobbyKingPin - Added new improved primitives for the Flupper Domes
 '1.5.18 apophis - Insert light fade times longer (so fading is more obvious). Updated pf-shadows image.
 '1.5.19 apophis - Disabled "hide parts behind" for ball and flipper shadow primitives.
+'1.5.20 apophis - Added correction to aBall.velz in dampener code
 
 '*********************************************************************************************************************************
 ' === ZTUT: VPW TUTORIAL VIDEOS  ===
@@ -2569,6 +2570,7 @@ Class Dampener
 		
 		aBall.velx = aBall.velx * coef
 		aBall.vely = aBall.vely * coef
+		aBall.velz = aBall.velz * coef
 		If debugOn Then TBPout.text = str
 	End Sub
 	
@@ -2580,6 +2582,7 @@ Class Dampener
 		If Abs(aball.velx) < 2 And aball.vely < 0 And aball.vely >  - 3.75 Then
 			aBall.velx = aBall.velx * coef
 			aBall.vely = aBall.vely * coef
+			aBall.velz = aBall.velz * coef
 		End If
 	End Sub
 	
