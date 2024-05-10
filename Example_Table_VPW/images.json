@@ -298,6 +298,7 @@
     "name": "flipper_williams_logo_Left",
     "path": "C:\\VPX4\\tables\\makeover stuff\\flipper_williams_logo_Left.png",
     "alpha_test_value": 1.0,
+    "is_opaque": false,
     "is_signed": false
   },
   {

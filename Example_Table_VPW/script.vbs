@@ -171,6 +171,7 @@
 '1.5.18 apophis - Insert light fade times longer (so fading is more obvious). Updated pf-shadows image.
 '1.5.19 apophis - Disabled "hide parts behind" for ball and flipper shadow primitives.
 '1.5.20 apophis - Added correction to aBall.velz in dampener code
+'1.5.21 apophis - Added examples of correctly sized flippers to the Flippers layer.
 
 '*********************************************************************************************************************************
 ' === ZTUT: VPW TUTORIAL VIDEOS  ===

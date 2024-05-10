@@ -1,5 +1,19 @@
 [
   {
+    "file_name": "Trigger.TriggerRF.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
+  },
+  {
+    "file_name": "Trigger.TriggerLF.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
+  },
+  {
     "file_name": "Flasher.PFShadowsGION.json",
     "is_locked": true,
     "editor_layer": 0,
@@ -998,7 +1012,7 @@
     "is_locked": true,
     "editor_layer": 0,
     "editor_layer_name": "Flippers",
-    "editor_layer_visibility": false
+    "editor_layer_visibility": true
   },
   {
     "file_name": "Wall.Wall228.json",
@@ -1201,7 +1215,7 @@
     "is_locked": true,
     "editor_layer": 0,
     "editor_layer_name": "Flippers",
-    "editor_layer_visibility": false
+    "editor_layer_visibility": true
   },
   {
     "file_name": "Primitive.Primitive5.json",
@@ -1666,25 +1680,18 @@
     "editor_layer_visibility": false
   },
   {
-    "file_name": "Trigger.TriggerLF.json",
-    "is_locked": true,
-    "editor_layer": 0,
-    "editor_layer_name": "Flippers",
-    "editor_layer_visibility": false
-  },
-  {
     "file_name": "Primitive.LFLogo.json",
     "is_locked": true,
     "editor_layer": 0,
     "editor_layer_name": "Flippers",
-    "editor_layer_visibility": false
+    "editor_layer_visibility": true
   },
   {
     "file_name": "Primitive.RFLogo.json",
     "is_locked": true,
     "editor_layer": 0,
     "editor_layer_name": "Flippers",
-    "editor_layer_visibility": false
+    "editor_layer_visibility": true
   },
   {
     "file_name": "Plunger.Plunger.json",
@@ -3535,10 +3542,45 @@
     "editor_layer_visibility": false
   },
   {
-    "file_name": "Trigger.TriggerRF.json",
+    "file_name": "Flipper.LeftFlipper_Generic3in.json",
     "is_locked": true,
     "editor_layer": 0,
     "editor_layer_name": "Flippers",
-    "editor_layer_visibility": false
+    "editor_layer_visibility": true
+  },
+  {
+    "file_name": "Flipper.LeftFlipper_Williams3in.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
+  },
+  {
+    "file_name": "Flipper.LeftFlipper_WilliamsRidges.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
+  },
+  {
+    "file_name": "Flipper.LeftFlipper_WilliamsLightning.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
+  },
+  {
+    "file_name": "Flipper.LeftFlipper_Williams2p25in.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
+  },
+  {
+    "file_name": "Flipper.LeftFlipper_Williams2p25in001.json",
+    "is_locked": true,
+    "editor_layer": 0,
+    "editor_layer_name": "Flippers",
+    "editor_layer_visibility": true
   }
 ]
