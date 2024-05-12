@@ -172,6 +172,7 @@
 '1.5.19 apophis - Disabled "hide parts behind" for ball and flipper shadow primitives.
 '1.5.20 apophis - Added correction to aBall.velz in dampener code
 '1.5.21 apophis - Added examples of correctly sized flippers to the Flippers layer.
+'1.5.22 apophis - Updated DisableStaticPreRendering functionality to be consistent with VPX 10.8.1 API
 
 '*********************************************************************************************************************************
 ' === ZTUT: VPW TUTORIAL VIDEOS  ===
@@ -207,6 +208,7 @@ On Error GoTo 0
 '  ZOPT: User Options
 '*******************************************
 
+
 '----- DMD Options -----
 Const UseFlexDMD = 1				'0 = no FlexDMD, 1 = enable FlexDMD
 Const FlexONPlayfield = False	   'False = off, True=DMD on playfield ( vrroom overrides this )
@@ -229,8 +231,9 @@ Dim StagedFlippers : StagedFlippers = 0         ' Staged Flippers. 0 = Disabled,
 ' - 3: player closed the tweak UI, good time to update staticly prerendered parts
 ' Table1.Option arguments are: 
 ' - option name, minimum value, maximum value, step between valid values, default value, unit (0=None, 1=Percent), an optional arry of literal strings
+Dim dspTriggered : dspTriggered = False
 Sub Table1_OptionEvent(ByVal eventId)
-    If eventId = 1 Then DisableStaticPreRendering = True
+	If eventId = 1 And Not dspTriggered Then dspTriggered = True : DisableStaticPreRendering = True : End If
 
 	' Color Saturation
     ColorLUT = Table1.Option("Color Saturation", 1, 11, 1, 1, 0, _
@@ -261,7 +264,7 @@ Sub Table1_OptionEvent(ByVal eventId)
     ' Staged Flippers
     StagedFlippers = Table1.Option("Staged Flippers", 0, 1, 1, 0, 0, Array("Disabled", "Enabled"))
 
-    If eventId = 3 Then DisableStaticPreRendering = False
+	If eventId = 3 And dspTriggered Then dspTriggered = False : DisableStaticPreRendering = False : End If
 End Sub
 
 
