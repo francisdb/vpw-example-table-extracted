@@ -1,2 +1,2 @@
 # vpw-example-table-extracted
-VPW Example table
+Virtual Pinball Workshop (VPW) Example table extracted using https://github.com/francisdb/vpxtool
