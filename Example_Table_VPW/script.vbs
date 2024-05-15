@@ -173,6 +173,7 @@
 '1.5.20 apophis - Added correction to aBall.velz in dampener code
 '1.5.21 apophis - Added examples of correctly sized flippers to the Flippers layer.
 '1.5.22 apophis - Updated DisableStaticPreRendering functionality to be consistent with VPX 10.8.1 API
+'1.6 Release
 
 '*********************************************************************************************************************************
 ' === ZTUT: VPW TUTORIAL VIDEOS  ===
